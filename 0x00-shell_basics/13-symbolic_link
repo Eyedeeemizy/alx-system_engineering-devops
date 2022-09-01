@@ -1,2 +1,5 @@
-'#!/bin/bash'
+#!/bin/bash
+ln -s /bin/ls __ls__ >> 13-symbolic_link
+echo ln -s /bin/ls __ls__ >> 13-symbolic_link
+echo ln -s /bin/ls __ls__
 ln -s /bin/ls __ls__
